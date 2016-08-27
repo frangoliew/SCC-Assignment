@@ -13,4 +13,5 @@
           android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
           android:paddingRight="?android:attr/listPreferredItemPaddingRight"
           android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-          android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
+          android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+          android:background="@color/blue1"/>

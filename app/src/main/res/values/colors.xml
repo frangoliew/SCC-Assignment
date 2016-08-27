@@ -17,4 +17,7 @@
 
     <color name="theme_colour">#424242</color>
     <color name="theme_accent">#33B5E5</color>
+    <color name="red">#ffff0000</color>
+    <color name="blue1">#2196F3</color>
+    <color name="lime">#CDDC39</color>
 </resources>
