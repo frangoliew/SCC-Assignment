@@ -1,0 +1,5 @@
+This will be the file to try and test stuff.
+language: android
+$ git add -ABC
+$ git commit -m 'Testing the Travis CI for stuff'
+$ git push
