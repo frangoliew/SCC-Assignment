@@ -131,14 +131,14 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        protected void initPrefsSummary(Preference p) {
-            if (p instanceof PreferenceCategory) {
-                PreferenceCategory cat = (PreferenceCategory) p;
+        protected void initPrefsSummary(Preference pre) {
+            if (pre instanceof PreferenceCategory) {
+                PreferenceCategory cat = (PreferenceCategory) pre;
                 for (int i = 0; i < cat.getPreferenceCount(); i++) {
                     initPrefsSummary(cat.getPreference(i));
                 }
             } else {
-                updatePrefsSummary(p);
+                updatePrefsSummary(pre);
             }
         }
 
