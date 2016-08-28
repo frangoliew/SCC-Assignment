@@ -15,7 +15,8 @@ public class CleanStatusBarPreferences {
     private final Resources mResources;
 
     public CleanStatusBarPreferences(SharedPreferences sharedPreferences, Resources resources) {
-
+        mSharedPreferences = sharedPreferences;
+        mResources = resources;
     }
 
     public int getApiValue() {
