@@ -1,0 +1,1 @@
+[![Coverage Status](https://coveralls.io/repos/github/frangoliew/SCC-Assignment/badge.svg?branch=master)](https://coveralls.io/github/frangoliew/SCC-Assignment?branch=master)
