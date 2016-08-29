@@ -35,13 +35,7 @@ public class MainActivity extends AppCompatActivity {
         masterSwitch.setChecked(CleanStatusBarService.isRunning());
         masterSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                Intent service = new Intent(MainActivity.this, CleanStatusBarService.class);
-                if (b) {
-                    startService(service);
-                } else {
-                    stopService(service);
-                }
+      
             }
         });
 
